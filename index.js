@@ -27,12 +27,19 @@ client.on("message", async message => {
     if (message.content.startsWith(`${prefix}play`)) {
         execute(message, serverQueue);
         return;
+
     } else if (message.content.startsWith(`${prefix}skip`)) {
         skip(message, serverQueue);
         return;
+
     } else if (message.content.startsWith(`${prefix}stop`)) {
         stop(message, serverQueue);
         return;
+
+    } else if (message.content.startsWith(`${prefix}help`)) {
+        help(message);
+        return;
+
     } else {
         message.channel.send("You need to enter a valid command!");
     }
@@ -128,6 +135,11 @@ function play(guild, song) {
         .on("error", error => console.error(error));
     dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
     serverQueue.textChannel.send(`Start playing: **${song.title}**`);
+}
+
+function help(message) {
+    message.channel.send("we have ! prefix command play skip stop");
+
 }
 
 client.login(token);

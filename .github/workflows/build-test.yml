@@ -1,22 +1,10 @@
 name: build-test
 
-on:
-  pull_request:
-    paths-ignore:
-      - '**.md'    
-  push:    
-    branches:
-      - main
-      - releases/*
-    paths-ignore:
-      - '**.md'
+on: [push]  
       
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Setup node 12
@@ -27,6 +15,4 @@ jobs:
       - run: npm run build
       - run: npm run format-check
       - run: npm test
-      - name: Verify no unstaged changes
-        if: runner.os != 'windows'
-        run: __tests__/verify-no-unstaged-changes.sh
+       
