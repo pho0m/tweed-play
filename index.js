@@ -41,7 +41,7 @@ client.on("message", async message => {
         return;
 
     } else {
-        message.channel.send("You need to enter a valid command!");
+        message.channel.send("You need to enter a valid command! please !help to show command");
     }
 });
 
