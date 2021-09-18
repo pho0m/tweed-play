@@ -1,8 +1,6 @@
-# Discord Music bot
+# tweed-play
 
-A simple discord bot that helps you manage your server by providing useful commands like playing music or deleting text messages.
-
-You can find the tutorial about building a discord music bot [here](https://gabrieltanner.org/blog/dicord-music-bot). 
+only use in Tweed we not for profit
 
 ## Table of content
 
@@ -27,12 +25,6 @@ First, make sure you have all the required tools installed on your local machine
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/TannerGabriel/discord-bot.git
-
-# Enter into the directory
-cd discord-bot/
-
 # Install the dependencies
 npm install
 ```
@@ -64,12 +56,7 @@ docker run -d discordbot
 ## Deploying commands
 
 Before you can use the bots slash command you first need to add them to your Discord server. You can use the `!deploy` command to do so.
-
-<img src="./assets/deploy-commands.png">
-
-After deploying the commands you should be able to see and access them by typing a slash:
-
-<img src="./assets/commands.png">
+After deploying the commands you should be able to see and access them by typing a slash
 
 ## Features & Commands
 
@@ -101,10 +88,6 @@ After deploying the commands you should be able to see and access them by typing
 
 * Now Playing (/nowplaying)
 * Get information about a user (/userinfo USER)
-* Ban a player (/ban USER)
-* Delete the latest chat messages (/purge NUM_OF_MESSAGES)
-
-<img src="./assets/playing_song.png">
 
 ## Common errors
 
@@ -122,18 +105,4 @@ npm install ytdl-core@latest
 
 The `play` command requires FFMPEG to be installed on the machine that is running the bot. You can download it on the official [FFMPEG website](https://www.ffmpeg.org/). Note: This isn't relevant if you use the Dockerfile because it will install FFMPEG inside of the container.
 
-## Contributing
-
-You are welcome to contribute by submitting a Pull Request to the repository.
-
-## Author
-
-[Gabriel Tanner](https://gabrieltanner.org/)
-
-## Support me
-
-<a href="https://www.buymeacoffee.com/gabrieltanner" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+quote https://github.com/TannerGabriel/discord-bot
