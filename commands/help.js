@@ -26,7 +26,7 @@ module.exports = {
           color: 0x00C9AC,
         },
       ],
-       ephemeral: true,
+       ephemeral: false,
     });
   },
 };
