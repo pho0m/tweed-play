@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const Client = require('./client/Client');
 const { token } = require('./config.json');
 const { Player } = require('discord-player');
-
+asdfsadfasdf
 const client = new Client();
 client.commands = new Discord.Collection();
 
