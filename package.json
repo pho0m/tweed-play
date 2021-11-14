@@ -1,8 +1,8 @@
 {
-  "name": "music-bot",
+  "name": "tweed-play",
   "version": "1.0.0",
-  "repository": "https://github.com/TannerGabriel/discord-music-bot.git",
-  "description": "A simple discord music bot",
+  "repository": "https://github.com/Tweed-Family/tweed-play.git",
+  "description": "tweed bot in discord",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,17 @@
   "keywords": [
     "discord",
     "music",
-    "bot"
+    "bot",
+    "tweed"
   ],
-  "author": "Gabriel Tanner",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Tweed-Family/tweed-play#readme",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
     "discord-player": "^5.0.2",
     "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "ytdl-core": "^4.9.1"
