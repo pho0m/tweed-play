@@ -13,9 +13,7 @@
     "bot",
     "tweed"
   ],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/Tweed-Family/tweed-play#readme",
+  "author": "Tweed",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
     "discord-player": "^5.0.2",
@@ -23,6 +21,13 @@
     "dotenv": "^10.0.0",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
+    "lyrics-finder": "^21.7.0",
     "ytdl-core": "^4.9.1"
-  }
+  },
+  "homepage": "https://github.com/Tweed-Family/tweed-play#readme",
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/Tweed-Family/tweed-play/issues"
+  },
+  "license": "ISC"
 }
