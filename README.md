@@ -4,12 +4,10 @@ only use in Tweed we not for profit
 
 ## Table of content
 
-* [Requirements](#requirements)
-* [Getting started](#getting-started)
-* [Common errors](#common-errors)
-* [Contributing](#contributing)
-* [Author](#author)
-* [License](#license)
+- [Requirements](#requirements)
+- [Getting started](#getting-started)
+- [Common errors](#common-errors)
+- [License](#license)
 
 ## Requirements
 
@@ -48,9 +46,13 @@ node index.js
 ```bash
 # Build the image
 docker build --tag discordbot .
+or
+make build
 
 # Run the image
 docker run -d discordbot
+or
+make start
 ```
 
 ## Deploying commands
@@ -62,32 +64,32 @@ After deploying the commands you should be able to see and access them by typing
 
 > Note: The repository now uses the new Discord slash commands
 
-* 🎶 Play music from YouTube via url
+- 🎶 Play music from YouTube via url
 
 `/play YOUTUBE_URL`
 
-* 🎶 Play music from using song name
+- 🎶 Play music from using song name
 
 `/play SONG_NAME`
 
-* 📃 Pause music
+- 📃 Pause music
 
 `/pause`
 
-* 🎓 Resume music
+- 🎓 Resume music
 
 `/resume`
 
-* 💿 Skip song
+- 💿 Skip song
 
 `/skip`
 
-* 🔇 Stop music
+- 🔇 Stop music
 
 `/stop`
 
-* Now Playing (/nowplaying)
-* Get information about a user (/userinfo USER)
+- Now Playing (/nowplaying)
+- Get information about a user (/userinfo USER)
 
 ## Common errors
 
