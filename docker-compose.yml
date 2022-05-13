@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  tweed-play:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: tweed-play
+    restart: always

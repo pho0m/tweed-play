@@ -2,7 +2,7 @@
   "name": "tweed-play",
   "version": "1.0.0",
   "repository": "https://github.com/Tweed-Family/tweed-play.git",
-  "description": "tweed bot in discord",
+  "description": "tweed-play bot in discord made by tweed",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,12 +22,7 @@
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "lyrics-finder": "^21.7.0",
-    "ytdl-core": "^4.9.1"
-  },
-  "homepage": "https://github.com/Tweed-Family/tweed-play#readme",
-  "devDependencies": {},
-  "bugs": {
-    "url": "https://github.com/Tweed-Family/tweed-play/issues"
+    "ytdl-core": "^4.11.0"
   },
   "license": "ISC"
 }
