@@ -1,2 +1,6 @@
+config.json
+.env
+package-lock.json
+
 node_modules
 npm-debug.log
