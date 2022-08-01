@@ -16,6 +16,7 @@ for (const file of commandFiles) {
   const command = require(`./commands/${file}`);
   client.commands.set(command.name, command);
 }
+console.log(process.env.TOKEN);
 
 console.log(client.commands);
 
